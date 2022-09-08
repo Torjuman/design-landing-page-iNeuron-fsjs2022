@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.main-div {
+    font-family: "Roboto", serif;
+    background: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* --------------------------------- */
+/* -----------Nav Section----------- */
+/* --------------------------------- */
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.signin-btn, .learn-more-btn {
+    padding: 5px 10px;
+    background: linear-gradient(-90deg, #fd7aac 0%, #9424F0 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+/* --------------------------------- */
+/* ---------Hero Section------------ */
+/* --------------------------------- */
+
+.intro-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* --------Left Section------------ */
+
+.left-section {
+    flex: 4;
+    margin-top: 10%;
+}
+
+.left-section h1 {
+    font-size: 60px;
+    color: #302f83;
+}
+
+.left-section h4 {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #000000b3;
+}
+
+.learn-more-btn {
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+/* ----------Right Section----------- */
+
+.imgs-div {
+    flex: 6;
+    position: relative;
+}
+
+.vector-dot {
+    position: absolute;
+    left: 8%;
+    top: 70%;
+}
+
+.vector-img {
+    position: absolute;
+    top: 70%;
+}

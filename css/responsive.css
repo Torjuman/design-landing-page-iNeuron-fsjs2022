@@ -1,0 +1,82 @@
+@media screen and (max-width: 1080px) {
+    .main-div {
+        background-size: 65%;
+    }
+
+    img[alt="intro-img"] {
+        width: 100%;
+        position: absolute;
+        top: 3%;
+        right: 10%;
+    }
+    .vector-dot {
+        width: 15px;
+        right: 5%;
+        top: 90%;
+    }
+
+    .vector-img {
+        width: 60px;
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav img[alt="logo"] {
+        width: 100px;
+    }
+    .nav-items {
+        font-size: 14px;
+    }
+
+    .nav-item {
+        margin: 0px 10px;
+    }
+
+    .left-section h1 {
+    font-size: 40px;
+    }
+
+    .left-section h4 {
+    margin-top: 30px;
+    font-size: 14px;
+    }
+
+    .learn-more-btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    }
+
+    .vector-dot {
+        top: 70%;
+    }
+
+    .vector-img {
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+        .main-div {
+            background:none;
+        } 
+        .nav-items {
+            display: none;
+        }
+    
+        .signin-btn {
+            display: none;
+        }
+    
+        .menu {
+            display: block;
+        }
+    
+        .intro-section {
+            height: 90vh;
+            flex-direction: column;
+        }
+    
+    
+}
